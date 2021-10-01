@@ -1,0 +1,57 @@
+[{
+        "question": "Hvilken forretningsmand og opfinder står bag SpaceX, der sendte to astronauter i kredsløb om jorden i 2020 ?",
+        "answers": ["Mark Zuckerberg", "Elon Musk", "Jeff Bezos"],
+        "correct_answer": 1,
+        "correct": "<h3>Korrekt!</h3> <p>Det rigtige svar er:</p> <br> <p>'Elon Musk'</p> <p>SpaceX blev grundlagt i juni 2002 af Elon Musk.</p>",
+        "wrong": "<h3>Forkert!</h3> <p>Det rigtige svar er:</p> <br> <br> <p>Elon Musk</p> <p>SpaceX blev grundlagt i juni 2002 af Elon Musk.</p>"
+    },
+    {
+        "question": "Hvor mange danske familier har et smart-tv i 2020?",
+        "answers": ["30%", "52%", "64%"],
+        "correct_answer": 2,
+        "correct": "<h3>Korrekt!</h3><p>Det rigtige svar er: </p> <br> <p>64%</p> <p>I 2013 var det kun 24 % af danske familier der havde et smart TV.</p>",
+        "wrong": "<h3>Forkert!</h3> <p>Det rigtige svar er: </p> <br> <p>64%</p> <p>I 2013 var det kun 24% af danske familier der havde et smart TV.</p>"
+    },
+    {
+        "question": "Joe Biden vandt præsidentvalget i USA. Men hvem bliver den nye vicepræsident?",
+        "answers": ["Nancy Pelosi", "Mike Pence", "Kamala Harris"],
+        "correct_answer": 2,
+        "correct": "<h3>Korrekt!</h3> <p>Det rigtige svar er:</p> <br> <p>Kamala Harris</p> <p>Kamala Harris bliver den første kvindelige vicepræsident i USA.</p>",
+        "wrong": "<h3>Forkert!</h3> <p>Det rigtige svar er:</p> <br> <p>Kamala Harris</p> <p>Kamala Harris bliver den første kvindelige vicepræsident i USA.</p>"
+    },
+    {
+        "question": "Hvilken fodboldklub vandt Superligasæsonen 2019 / 20 i juli?",
+        "answers": ["F.C.København", "FC Midtjylland", "AGF"],
+        "correct_answer": 1,
+        "correct": "<h3>Korrekt!</h3> <p>Det rigtige svar er:</p> <br> <p>FC Midtjylland</p> <p>FC Midtjylland vandt guld, F.C. København sølv og AGF bronze.</p>",
+        "wrong": "<h3>Forkert!</h3> <p>Det rigtige svar er:</p> <br> <p>FC Midtjylland</p> <p>FC Midtjylland vandt guld, F.C. København sølv og AGF bronze.</p>"
+    },
+    {
+        "question": "Hvilket musik nummer var det mest streamede på Spotify i 2020?",
+        "answers": ["The Weeknd–‘ Blinding Lights ’", "Roddy Ricch–‘ The Box’", "Trevor Daniel–‘ Falling ’"],
+        "correct_answer": 0,
+        "correct": "<h3>Korrekt!</h3> <p>Det rigtige svar er:</p> <br> <p>'The Weeknd – Blinding Lights'</p> <p>‘Blinding Lights’ var det mest streamede nummer på Spotify både i Danmark og Internationalt i 2020.<p>",
+        "wrong": "<h3>Forkert!</h3> <p>Det rigtige svar er:</p> <br> <p>'The Weeknd – Blinding Lights'</p> <p>‘Blinding Lights’ var det mest streamede nummer på Spotify både i Danmark og Internationalt i 2020.<p>"
+    },
+    {
+        "question": "Hvilket Netflix show var det mest streamede i 2020?",
+        "answers": ["Tiger King", "Dronninggambit", "Papirhuset"],
+        "correct_answer": 2,
+        "correct": "<h3>Korrekt!</h3> <p>Det rigtige svar er:</p> <br> <p>'Papirhuset'</p> <p>Papirhuset blev streamet 65 millioner gange. Tiger King 64 mil. gange. Dronninggambit 63 mil. gange.</p>",
+        "wrong": "<h3>Forkert!</h3> <p>Det rigtige svar er:</p> <br> <p>'Papirhuset'</p> <p>Papirhuset blev streamet 65 millioner gange. Tiger King 64 mil. gange. Dronninggambit 63 mil. gange.</p>"
+    },
+    {
+        "question": "Dronning Margrethe skulle have holdt stor fødselsdag i 2020, men hvilken?",
+        "answers": ["75 år", "80 år", "85 år"],
+        "correct_answer": 1,
+        "correct": "<h3>Korrekt!</h3> <p>Det rigtige svar er: <p> <br> <p>'80 års fødselsdag'</p> <p>Dronningens 80 års fødselsdag blev fejret med bla. sang fra morgen til aften.</p>",
+        "wrong": "<h3>Forkert!</h3> <p>Det rigtige svar er: <p> <br> <p>'80 års fødselsdag'</p> <p>Dronningens 80 års fødselsdag blev fejret med bla. sang fra morgen til aften.</p>"
+    },
+    {
+        "question": "Hvad hedder direktøren for Lægemiddelstyrelsen?",
+        "answers": ["Søren Brostrøm", "Kåre Mølbak", "Thomas Senderovitz"],
+        "correct_answer": 2,
+        "correct": "<h3>Korrekt!</h3> <p>Det rigtige svar er: </p> <br> <p>'Thomas Senderovitz'</p> <p>Vi har lært mange nye direktører at kende i 2020. Thomas Senderovitz er adm. direktør for Lægemiddelstyrelsen og uddannet læge.</p>",
+        "wrong": "<h3>Forkert!</h3> <p>Det rigtige svar er: </p> <br> <p>'Thomas Senderovitz'</p> <p>Vi har lært mange nye direktører at kende i 2020. Thomas Senderovitz er adm. direktør for Lægemiddelstyrelsen og uddannet læge.</p>"
+    }
+]

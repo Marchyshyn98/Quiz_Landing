@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <title>Quiz 2021 - Vind iPhone 12</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Language" content="da" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, minimal-ui" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="robots" content="noindex,nofollow" />
+    <link rel="icon" type="image/png" href="./images/favicon.png" />
+    <link rel="stylesheet" href="./css/animate.min.css" />
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header__logo">
+            <img src="./images/telenor_logo.svg" alt="logo">
+        </div>
+    </header>
+
+    <div class="container">
+        <main>
+            <div class="main__title">
+                <h5>Quiz og vind:</h5>
+                <h2 class="main__title__bold">
+                    Test din viden om 2020 og vær med i konkurrencen
+                </h2>
+            </div>
+            <div class="button">
+                <button class="btn btn__start">Start spillet</button>
+            </div>
+            <div class="main__content">
+                <p>Svar rigtigt på 3 ud af 6 spørgsmål, så er du med i lodtrækningen om den helt nye 5G iPhone 12 (værdi 6.999 kr.). <br><br> Du vil desuden få et godt tilbud på et mobilabonnement og tjenester, som passer til dit behov. Du bliver kontaket
+                    per e-mail, sms eller tlf.</p>
+            </div>
+            <div class="main__img">
+                <img src="./images/apple_iphone12_sort3.png" alt="Iphone">
+            </div>
+        </main>
+    </div>
+
+    <section id="question" class="card card__question">
+        <div class="question__timer-container">
+            <div class="question__timer__circle">
+                <div class="question__timer__circle__seconds">
+                    <p class="seconds"></p>
+                    <p>tid-tillbage</p>
+                </div>
+            </div>
+            <!--  SVG AREA -->
+            <svg class="svg">
+                <circle id="cls" class="cls run-anim" cx="48.5" cy="130" r="47"></circle>
+            </svg>
+        </div>
+        <div class="question__form-container">
+            <h2 class="question__title"></h2>
+            <form class="question__answers"></form>
+            <div class="question__wrong"></div>
+            <div class="question__correct"></div>
+            <div class="empty"></div>
+        </div>
+    </section>
+
+    <section id="winner">
+        <div class="winner__container">
+            <div class="winner__text">
+                <h3>
+                    Wow, du er god! Du er nu med i lodtrækningen om iPhone 12
+                </h3>
+                <p>Indtast din kontaktinfo, så vi ved, hvor vi skal sende præmien hen, hvis du vinder.</p>
+            </div>
+            <form name="frm" class="winner__form">
+                <label for="#name" class="nameLabel">Navn</label>
+                <input type="text" id="name" name="name">
+                <label for="#address" class="addressLabel">Adresse</label>
+                <input type="text" id="address" name="address">
+                <label class="emailLabel" for="E-mail">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="example@gmail.com">
+                <label for="#telephone" class="telephoneLabel">Telefon</label>
+                <input type="tel" id="telephone" name="telephone">
+                <div class="first-police">
+                    <input type="checkbox" name="firstPolice" id="firstPolice" value="">
+                    <label for="firstPolice" class="firstPoliceLabel">Jeg bekræfter, at jeg er fyldt 18 år og kan deltage i konkurrencen.</label>
+                </div>
+                <div class="second-police">
+                    <input type="checkbox" name="secondPolice" id="secondPolice" value="">
+                    <label for="secondPolice" class="secondPoliceLabel">
+                        Ja tak, Telenor og CBB må kontakte mig via e-mail, sms, mms, Facebook, Instagram, LinkedIn, Telenor selvbetjening via reklamer & beskeder, notifikationer via app samt telefonopkald med nyheder og tilbud om mobil- og fastnettelefoni, tv, internet, underholdningstjenester og hardwareprodukter. /n  Jeg kan til enhver tid trække samtykket tilbage. Læs konkurrencebetingelserne <button type="button" id="myBtn">her</button>
+                    </label>
+                </div>
+                <input type="button" class="btn btn__submit" value="Videre">
+            </form>
+        </div>
+
+        <aside id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>Konkurrencebetingelser</h3>
+                <ul type="none">
+                    <li>1) Denne konkurrence afholdes af Telenor A/S</li>
+                    <li>2) Konkurrencen er ikke købsbetinget.</li>
+                    <li>3) Deltagerne skal være bosiddende i Danmark samt være fyldt 18 år for at kunne deltage. Ansatte hos Telenor og medlemmer af deres husstande kan ikke deltage i konkurrencen.</li>
+                    <li>4) Ved deltagelse i konkurrencen deltager du i lodtrækningen om 1 stk. Apple iPhone 12 128GB i sort, til værdi af 6.999 kr.</li>
+                    <li>5) Præmien kan ikke ombyttes til kontanter eller andre varer.</li>
+                    <li>6) Konkurrencen løber indtil 31. marts 2021. Der trækkes én vinder senest d. 7. april 2021, der bliver udtrukket tilfældigt af systemet.</li>
+                    <li>7) Vi tager forbehold for eventuelle slåfejl og leveringstid på præmien fra leverandøren.</li>
+                    <li>8) Vinderne vil blive kontaktet indenfor 8 dage efter endt lodtrækning på mail. Vinderne har derefter 7 dage til at bekræfte. Hvis vinderne ikke svarer inden for en uge, forbeholdes retten til at udtrække en ny vinder.</li>
+                    <li>9) Når jeg deltager i konkurrencen, accepterer jeg samtidig at modtage information og tilbud fra Telenor A/S, herunder Telenor og CBB, på e-mail, sms og telefonisk.</li>
+                    <li>10) Ved at deltage bekræfter du, at du har læst og forstået ovenstående betingelser.</li>
+                </ul>
+                <div class="modal-content__contacts">
+                    <p>Telenor A/S</p>
+                    <p>Frederikskaj 8</p>
+                    <p>DK-1780 København V</p>
+                    <p>CVR: 19433692</p>
+                    <p>Telefon: 72121212</p>
+                </div>
+            </div>
+        </aside>
+    </section>
+
+    <section id="complete" class="card card__complete">
+        <div class="complete__container">
+            <h2 class="main__title__bold">Tak for din deltagelse og du er med i lodtrækningen!</h2>
+            <p>Vi trækker lod om den helt nye 5G iPhone 12 (værdi 6.999 kr.). Vinderen findes d. 31. marts 2021 og får direkte besked.</p>
+            <div class="main__img complete__img">
+                <img src="./images/apple_iphone12_sort3.png" alt="iphone">
+            </div>
+            <div class="complete__button">
+                <a href="#" class="btn btn__complete">Læs om iPhone 12</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section id="lose" class="card card__lose">
+        <div class="lose__container">
+            <h3>
+                Desværre - du fik ikke nok rigtige. Men prøv endelig igen.
+            </h3>
+            <p>Du har heldigvis 3 chancer, så prøv igen. Hvis du svarer rigtigt på 3 ud af 6 spørgsmål, så deltager du i lodtrækningen om den helt nye 5G iPhone 12. Held og lykke.</p>
+            <div class="lose__button">
+                <button class="btn">PrØv igen</button>
+            </div>
+        </div>
+    </section> -->
+
+    <script src="./js/survey.json"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="./js/validation.js"></script>
+</body>
+
+</html>
